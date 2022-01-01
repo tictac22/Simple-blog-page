@@ -1,0 +1,27 @@
+.footer {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    &__social {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__social-item {
+        font-size: 30px;
+        transition: color 0.3s linear;
+        color:  #21243D;
+        &:hover{
+            color: #000000;
+        }
+        &:not(:first-child){
+            margin-left: 35px;
+        }
+    }
+
+    &__copy {
+        margin-top: 26px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('html/#head.html',{
+    'title':'Home',
+    })
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include('html/header.html',{
+            "link":"0",
+        })
+        <main class="main">
+            <div class="intro">
+                <div class="container">
+                    <div class="intro__body">
+                        <div class="intro__info">
+                            <h1 class="intro__title title">Hi, I am John,<br>
+                                Creative Technologist
+                            </h1>
+                            <p class="intro__text text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                            <a href="#" class="intro__btn">Download Resume</a>
+                        </div>
+                        <div class="intro__img">
+                            <img src="img/intro.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="container">
+                    <div class="posts__body">
+                        <div class="posts__title">
+                            <h3 class="posts__title-text">Recent posts</h3>
+                            <p class="posts__title-view">View all</p>
+                        </div>
+                        <div class="posts__grid grid__posts">
+                            <div class="grid__posts-item">
+                                <div class="grid__posts-flex">
+                                    <a href='' class="grid__posts-title">Making a design system from scratch</a>
+                                    <p class="grid__posts-tags">12 Feb 2020 <span>|</span>Design, Pattern</p>
+                                    <p class="grid__posts-text">Amet minim mollit non deserunt ullamco est sit aliqua
+                                        dolor do
+                                        amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                        consequat
+                                        sunt nostrud amet.</p>
+                                </div>
+                            </div>
+                            <div class="grid__posts-item">
+                                <div class="grid__posts-flex">
+                                    <a href='' class="grid__posts-title">Creating pixel perfect icons in Figma</a>
+                                    <p class="grid__posts-tags">12 Feb 2020 <span>|</span>Design, Pattern</p>
+                                    <p class="grid__posts-text">Amet minim mollit non deserunt ullamco est sit aliqua
+                                        dolor do
+                                        amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                        consequat
+                                        sunt nostrud amet.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-works">
+                <div class="container">
+                    <h4 class="featured-works__title">Featured works</h4>
+                    <div class="works">
+                        <article class="works__item">
+                            <a href="" class="works__image ibg">
+                                <img src="img/work01.jpg" alt="">
+                            </a>
+                            <div class="works__info">
+                                <h2 class="works__title">Designing Dashboards</h2>
+                                <div class="works__tags">
+                                    <div class="works__year">2020</div>
+                                    <div class="works__category">Dashboard</div>
+                                </div>
+                                <p class="works__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                    do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                    consequat sunt nostrud amet.</p>
+                            </div>
+                        </article>
+                        <article class="works__item">
+                            <a href="" class="works__image ibg">
+                                <img src="img/work02.jpg" alt="">
+                            </a>
+                            <div class="works__info">
+                                <h2 class="works__title">Vibrant Portraits of 2020</h2>
+                                <div class="works__tags">
+                                    <div class="works__year">2018</div>
+                                    <div class="works__category">Illustration</div>
+                                </div>
+                                <p class="works__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                    do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                    consequat sunt nostrud amet.</p>
+                            </div>
+                        </article>
+                        <article class="works__item">
+                            <a href="" class="works__image ibg">
+                                <img src="img/work03.jpg" alt="">
+                            </a>
+                            <div class="works__info">
+                                <h2 class="works__title">36 Days of Malayalam type</h2>
+                                <div class="works__tags">
+                                    <div class="works__year">2018</div>
+                                    <div class="works__category">Typography</div>
+                                </div>
+                                <p class="works__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                    do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                                    consequat sunt nostrud amet.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </main>
+        @@include('html/footer.html')
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
