@@ -7,7 +7,7 @@
     "dev": "gulp watch --dev --sync",
     "build": "gulp build",
     "otf2ttf": "gulp otf2ttf",
-    "server":"nodemon server.js"
+    "server":"server.js"
   },
   "keywords": [],
   "author": "",
