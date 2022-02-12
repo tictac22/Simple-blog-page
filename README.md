@@ -6,4 +6,4 @@ Stack of technologies
 - JS
 - GULP
 
-[Link on my app](https://simple-blog-page.vercel.app/)
+[Link on site](https://simple-blog-page.vercel.app/)
